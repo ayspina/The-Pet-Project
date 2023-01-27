@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'thepetproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ayspina.thepetproject',
+        'NAME': 'ayspina/thepetproject',
         'USER': os.environ['DB_USER'],
         'PASSWORD': os.environ['DB_PASSWORD'],
         'HOST': 'db.bit.io',
@@ -136,6 +136,16 @@ LOGOUT_REDIRECT_URL = '/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+
+
+
+
+
+
 
 import django_on_heroku
 django_on_heroku.settings(locals())
