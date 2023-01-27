@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'thepetproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'thepetproject',
-        'USER': os.environ('DB_USER'),
-        'PASSWORD': os.environ('DB_PASSWORD'),
+        'NAME': 'ayspina/thepetproject',
+        'USER': os.environ['DB_USER'],
+        'PASSWORD': os.environ['DB_PASSWORD'],
         'HOST': 'db.bit.io',
         'PORT': '5432'
     }
