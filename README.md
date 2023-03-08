@@ -23,6 +23,9 @@ general location of the donation.</p>
 <li>AS A USER, I want to be able to post requests for specific resources</li>
 <h2 align='center'>Check It Out</h2>
 
+https://thepetproject.herokuapp.com/
+
+
 https://trello.com/b/qJ9OZE5H/p3-the-pet-project
 
 
